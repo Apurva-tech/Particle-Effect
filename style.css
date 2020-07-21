@@ -6,17 +6,17 @@ body{
 
 #particles-js{
   background:black;
-  height:100bh ;
-  width: 100bh ;
+  height:100vh ;
+  width: 100vw ;
   display: flex;
-  flex-direction: column;
+  /* flex-direction: column; */
   justify-content: left;
-  text-align: center;
+  /* text-align: center; */
   
   align-content: center;
 
 }
-#center{
+.center{
   position: absolute;
   top: 50%;
   left: 50%;
@@ -26,7 +26,7 @@ body{
 
 
 #text{
-  top = 30px;
+  top: 30px;
   padding-top: 100px;
 }
 

@@ -1,0 +1,100 @@
+body{
+  margin:0;
+  font: normal 16px Arial, Helvetica, sand-serif;
+  color:#333;
+}
+
+#particles-js{
+  background:black;
+  height:100bh ;
+  width: 100bh ;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  text-align: center;
+  
+  align-content: center;
+
+}
+#center{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  font-style: Times;
+}
+
+
+#text{
+  top = 30px;
+  padding-top: 100px;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Raleway:200,100,400');
+
+body {
+  font-family: 'Raleway', sans-serif;
+  height: 100vh;
+  color: #ccc;
+  overflow:hidden;
+}
+
+
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  /* padding: 0 3rem; */
+  margin: auto;
+}
+
+p, h2 {
+  font-weight: 200;
+  margin: 0.4rem;
+}
+
+p {
+  font-size: 3.5rem;
+  align-content: center;
+  color: white ;
+  margin: auto;
+}
+
+
+/* Cursor */
+.txt-type > .txt {
+  border-right: 0.2rem solid #777;
+}
+
+@media(min-width: 1200px) {
+  h1 {
+    font-size: 5rem;
+  }
+}
+
+@media(max-width: 800px) {
+  .container {
+    padding: 0 1rem;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 100px;
+  }
+
+  h1 {
+    font-size: 3rem;
+  }
+}
+
+@media(max-width: 500px) {
+  h1 {
+    font-size: 2.5rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+}
